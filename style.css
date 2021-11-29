@@ -1,0 +1,302 @@
+*{
+    /* border: 1px solid red; */
+    margin: 0px;
+    padding: 0px;
+    border-style: border-box;  
+    font-family: Arial, Helvetica, sans-serif
+}
+
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+}
+section{
+    margin-top:0;
+    padding: 20px;
+  
+}
+
+.parent{
+    display: flex;
+  
+}
+.texto{
+    /* border: 1px solid red; */
+    width: 60%;
+    height: 100%;
+    margin-left: 35%;
+}
+.img-sidebar{
+    text-align: center;
+    margin-top:30%;
+}
+/* .sidebar2{
+
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    background-color: #6c757d;
+
+} */
+.sidebar{
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    background-color: #5961ae;
+}
+
+.sidebar-pos{
+
+    position: absolute;
+}
+
+.img-sidebar img{
+    width: 50%;
+    border: 5px solid #8f9afa;
+    border-radius: 50%;
+
+}
+
+.menu{
+    position: relative;
+    margin-top: 20px;
+    
+    text-align: center;
+    align-items: center;
+    
+}
+
+.menu a{
+    color: white;
+    opacity: 0.3;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.menu a.select{
+    opacity: 1.0;
+}
+.menu  a:hover{
+    opacity: 1;
+    display: inline-block;
+    width: 90px;
+    border-radius: 40px;
+    background-color: #848ff7;
+    
+    
+
+}
+
+
+.content{
+    /* border: 1px solid red; */
+  
+    margin-top: 30px;
+    margin-left:30%;
+    width: 80%;
+    height: 100%;
+   
+    padding:0 3%;
+    max-width: 70%;
+}
+
+.btn a i{ 
+    line-height: 31px;
+    padding: 1px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: #5961ae;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 10px;
+    font-size: 20px;
+}
+.btn a:first-child i{ 
+    font-size: 20px;
+     line-height: 31px;
+     padding: 2px;
+}
+.btn a:last-child i{
+    line-height: 31px;
+    padding: 2px;
+    padding-bottom: 2;
+}
+
+.btn a:last-child i:hover{
+
+    color: violet;
+    
+}
+.btn a:first-child i:hover{
+
+    color: #8f9afa;
+  
+}
+.btn a i:hover{
+   
+    color: rgb(137, 226, 140);
+    background-color: white;
+}
+section.descricao{
+    /* border: 1px solid black; */
+    position: relative;
+    left: 33%;
+    margin-top: 05%;
+    width: 60%;
+    
+    /* overflow-y: hidden; */
+ 
+}
+
+section.descricao h2{
+    color: #8f9afa;
+    font-size: 46px;
+    padding-bottom: 15px;
+   
+} 
+
+section h2.edu{
+    color: #5c64b1;
+    font-size: 20px;
+}
+
+section.descricao h2 > span{
+    color: #5961ae
+}
+
+section.descricao h3{
+    color: rgb(130, 131, 131);
+    font-size: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+   
+}
+section.descricao h3 > span{
+    color: #8f9afa;
+    
+    
+}
+p{
+    color: #6c757d;
+    font-size: 15px;
+    padding-bottom: 25px;
+   
+} 
+.li li{
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #6c757d;
+    font-size: 15px;
+    list-style-type: none;
+}
+
+.li li a, .p a{
+    color: #3f4449;
+    font-size: 15px;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.li li a:visited,.p a:visited{
+    color: #3f4449;
+    list-style-type: none;
+    text-decoration: none;
+}
+.li li a:hover, .p a:hover{
+    color: #6daef8;
+}
+
+.btn-a div p{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+
+a div.js{
+    float: left;
+    text-align: center;
+    display: block;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: rgb(140, 140, 140);
+    color: white;
+    font-weight: bold;
+    
+}
+a div.css{
+
+    float: left;
+    text-align: left;
+    display: block;
+    
+   
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: rgb(140, 140, 140);
+    font-size: 10px;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-left: 10px;
+    margin: 10px;
+    border-bottom: 3px solid rgb(107, 107, 107);
+}
+
+div.css p{
+
+    color: white;
+    text-align: center;
+    transform: scaleY(1.3);
+    position: relative;
+    top: 18px;
+    font-size: 18px;
+
+}
+  
+
+a div.css:hover{
+    background-color: #8f9afa; 
+    border-bottom: 3px solid #727ac4;
+
+}    
+
+div.bloco{
+    background-color: #05063a;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+@media screen and (max-width: 760px){
+    .span{
+        font-size: 12px;
+    }
+    section{
+        margin-top: 50%;
+    }
+    section.descricao{
+        width: 200px;
+
+        
+    }
+    .menu a{
+        margin: 7px;
+
+
+    }
+
+    a div.js{
+        margin-top: 10px;
+    }
+
+}
